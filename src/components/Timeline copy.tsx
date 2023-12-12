@@ -64,12 +64,12 @@ const Timeline2 = () => {
     <PageSection id="timeline">
     <div className="my-0 overflow-hidden">
       <BinaryText
-        className="text-white font-pixelate text-[2rem] mx:text-[3rem] font-bold mb-30"
+        className="text-white font-pixelate text-[4rem] mx:text-[5rem] font-bold mb-30 text-center"
         reveal
       ><div className="text-white" ref={textRef}></div>
        
       </BinaryText>
-      <div ref={ref1} className="w-[75%] mx-auto relative lg:w-[90%] mx:w-full">
+      <div ref={ref1} className="w-[95%] mx-auto relative lg:w-[90%] mx:w-full">
 <motion.div style={{scaleY:scrollYProgress}} className="absolute left-9 top-0 w-[4px] h-full bg-green-600 origin-top mx:w-[3px] lg:w-[4px] xs:w-[2px] mx:left-[30px]   lg:left-9 xs:left-[20px]"/>
 <ul className="w-full flex flex-col items-start justify-between ml-4  xs:ml-2">
 <Data
